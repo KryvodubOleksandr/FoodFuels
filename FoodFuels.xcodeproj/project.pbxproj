@@ -53,7 +53,9 @@
 			isa = PBXGroup;
 			children = (
 				C623969A26738566000AB98F /* FoodFuelsApp.swift */,
-				C623969C26738566000AB98F /* ContentView.swift */,
+				C62396AB267385C0000AB98F /* View */,
+				C62396A9267385B2000AB98F /* Model */,
+				C62396AA267385B8000AB98F /* ViewModel */,
 				C623969E26738568000AB98F /* Assets.xcassets */,
 				C62396A326738568000AB98F /* Info.plist */,
 				C62396A026738568000AB98F /* Preview Content */,
@@ -67,6 +69,28 @@
 				C62396A126738568000AB98F /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C62396A9267385B2000AB98F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C62396AA267385B8000AB98F /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		C62396AB267385C0000AB98F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C623969C26738566000AB98F /* ContentView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -279,7 +303,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = KryvodubOleksandr.FoodFuels;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -300,7 +324,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = KryvodubOleksandr.FoodFuels;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
