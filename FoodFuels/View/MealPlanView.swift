@@ -9,7 +9,11 @@ import SwiftUI
 
 struct MealPlanView: View {
     var body: some View {
-        Text("Meal Plan")
+        NavigationView {
+            Text("")
+                .navigationTitle("Select your meal plan")
+                .navigationBarTitleDisplayMode(.large)
+        }
     }
 }
 

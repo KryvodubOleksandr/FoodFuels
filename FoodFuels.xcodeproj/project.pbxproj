@@ -15,6 +15,7 @@
 		C62396AF26738B61000AB98F /* StatisticsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C62396AE26738B61000AB98F /* StatisticsView.swift */; };
 		C62396B126738B71000AB98F /* MessagesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C62396B026738B71000AB98F /* MessagesView.swift */; };
 		C62396B326738B82000AB98F /* MealPlanView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C62396B226738B82000AB98F /* MealPlanView.swift */; };
+		C62396B726738F06000AB98F /* ImageButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C62396B626738F06000AB98F /* ImageButtonView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		C62396AE26738B61000AB98F /* StatisticsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticsView.swift; sourceTree = "<group>"; };
 		C62396B026738B71000AB98F /* MessagesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagesView.swift; sourceTree = "<group>"; };
 		C62396B226738B82000AB98F /* MealPlanView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealPlanView.swift; sourceTree = "<group>"; };
+		C62396B626738F06000AB98F /* ImageButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageButtonView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 				C62396AE26738B61000AB98F /* StatisticsView.swift */,
 				C62396B026738B71000AB98F /* MessagesView.swift */,
 				C62396B226738B82000AB98F /* MealPlanView.swift */,
+				C62396B626738F06000AB98F /* ImageButtonView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -174,6 +177,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C62396B726738F06000AB98F /* ImageButtonView.swift in Sources */,
 				C62396B326738B82000AB98F /* MealPlanView.swift in Sources */,
 				C62396B126738B71000AB98F /* MessagesView.swift in Sources */,
 				C62396AD26738B4C000AB98F /* HomeView.swift in Sources */,

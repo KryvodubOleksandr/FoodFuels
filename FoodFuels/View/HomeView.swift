@@ -9,7 +9,15 @@ import SwiftUI
 
 struct HomeView: View {
     var body: some View {
-        Text("Home")
+        NavigationView {
+            Text("")
+                
+            .toolbar {
+                ToolbarItem(placement: .navigationBarLeading) { ImageButtonView("person.circle.fill") }
+            }
+            .navigationTitle("Community")
+            .navigationBarTitleDisplayMode(.large)
+        }
     }
 }
 

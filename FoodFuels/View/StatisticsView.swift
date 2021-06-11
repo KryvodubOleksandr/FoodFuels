@@ -9,7 +9,16 @@ import SwiftUI
 
 struct StatisticsView: View {
     var body: some View {
-        Text("Statistics")
+        NavigationView {
+            Text("")
+                .toolbar {
+                    ToolbarItem(placement: .navigationBarLeading) { ImageButtonView("person.circle.fill") }
+                    ToolbarItem(placement: .navigationBarTrailing) { ImageButtonView("star.circle.fill") }
+                    ToolbarItem(placement: .navigationBarTrailing) { ImageButtonView("crown.fill") }
+                }
+                .navigationTitle("Weight Entries")
+                .navigationBarTitleDisplayMode(.large)
+        }
     }
 }
 
