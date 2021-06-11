@@ -8,18 +8,26 @@
 
 /* Begin PBXBuildFile section */
 		C623969B26738566000AB98F /* FoodFuelsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C623969A26738566000AB98F /* FoodFuelsApp.swift */; };
-		C623969D26738566000AB98F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C623969C26738566000AB98F /* ContentView.swift */; };
+		C623969D26738566000AB98F /* TabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C623969C26738566000AB98F /* TabBarView.swift */; };
 		C623969F26738568000AB98F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C623969E26738568000AB98F /* Assets.xcassets */; };
 		C62396A226738568000AB98F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C62396A126738568000AB98F /* Preview Assets.xcassets */; };
+		C62396AD26738B4C000AB98F /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C62396AC26738B4C000AB98F /* HomeView.swift */; };
+		C62396AF26738B61000AB98F /* StatisticsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C62396AE26738B61000AB98F /* StatisticsView.swift */; };
+		C62396B126738B71000AB98F /* MessagesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C62396B026738B71000AB98F /* MessagesView.swift */; };
+		C62396B326738B82000AB98F /* MealPlanView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C62396B226738B82000AB98F /* MealPlanView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		C623969726738566000AB98F /* FoodFuels.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FoodFuels.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C623969A26738566000AB98F /* FoodFuelsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodFuelsApp.swift; sourceTree = "<group>"; };
-		C623969C26738566000AB98F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C623969C26738566000AB98F /* TabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarView.swift; sourceTree = "<group>"; };
 		C623969E26738568000AB98F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C62396A126738568000AB98F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		C62396A326738568000AB98F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C62396AC26738B4C000AB98F /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		C62396AE26738B61000AB98F /* StatisticsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticsView.swift; sourceTree = "<group>"; };
+		C62396B026738B71000AB98F /* MessagesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagesView.swift; sourceTree = "<group>"; };
+		C62396B226738B82000AB98F /* MealPlanView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealPlanView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,7 +96,11 @@
 		C62396AB267385C0000AB98F /* View */ = {
 			isa = PBXGroup;
 			children = (
-				C623969C26738566000AB98F /* ContentView.swift */,
+				C623969C26738566000AB98F /* TabBarView.swift */,
+				C62396AC26738B4C000AB98F /* HomeView.swift */,
+				C62396AE26738B61000AB98F /* StatisticsView.swift */,
+				C62396B026738B71000AB98F /* MessagesView.swift */,
+				C62396B226738B82000AB98F /* MealPlanView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -162,7 +174,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C623969D26738566000AB98F /* ContentView.swift in Sources */,
+				C62396B326738B82000AB98F /* MealPlanView.swift in Sources */,
+				C62396B126738B71000AB98F /* MessagesView.swift in Sources */,
+				C62396AD26738B4C000AB98F /* HomeView.swift in Sources */,
+				C62396AF26738B61000AB98F /* StatisticsView.swift in Sources */,
+				C623969D26738566000AB98F /* TabBarView.swift in Sources */,
 				C623969B26738566000AB98F /* FoodFuelsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
